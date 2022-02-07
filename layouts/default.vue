@@ -75,6 +75,11 @@ export default {
           title: "Welcome",
           to: "/",
         },
+        {
+          icon: "mdi-archive",
+          title: "Topics",
+          to: "/topics",
+        },
       ],
       miniVariant: false,
       right: true,
