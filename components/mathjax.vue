@@ -8,13 +8,11 @@
 export default {
   methods: {
     renderMath() {
-      this.$nextTick(() =>
-        window.MathJax.Hub.Queue([
-          "Typeset",
-          window.MathJax.Hub,
-          this.$refs.text,
-        ])
-      );
+      window.MathJax.Hub.Queue([
+        "Typeset",
+        window.MathJax.Hub,
+        this.$refs.text,
+      ]);
     },
   },
   mounted() {
