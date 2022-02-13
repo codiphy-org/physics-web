@@ -10,6 +10,7 @@
         $$\frac{\partial L}{\partial r} = m r \dot{\theta}^2 - \frac{GMm}{r^2}$$
       </div>
       <div>$$\frac{\partial L}{\partial \dot{r}} = m \dot{r}$$</div>
+      <div>$$\frac{\partial L}{\partial \dot{r}} = m \dot{r}$$</div>
     </div>
   </mathjax>
 </template>
